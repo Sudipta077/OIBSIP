@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Russo One', sans-serif;
+}
+.header{
+    background-image: url(GymPoster.png);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+    height: 15vh;
+    color: black;
+}
+.header h1{
+    font-size: 5vh;
+}
+.header ul {
+    list-style: none;
+    display: flex;
+}
+.header ul li{
+    margin-left: 2vw;
+    cursor: pointer;
+}
+section{
+    margin-top: 0vh;
+    width: 100vw;
+}
+section h2{
+    font-size: 8vh;
+}
+section ul {
+    list-style: none;
+    color: white;
+    font-size: 6vh;
+    width: 50vw;
+}
+section ul li{
+    margin-top: 1vh;
+}
+.section1{
+    background-image: url(Body.png);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+    padding: 5vh;
+}
+.section2{
+    margin-top: 5vh;
+    width: 100vw;
+}
+.box{
+    height: 70vh;
+    width: 25vw;
+    border: 1px solid black;
+}
+.pricing{
+    margin-top: 5vh;
+}
+.footer{
+    margin-top: 15vh;
+    height: 80vh;
+    background-color: black;
+    color: white;
+}
+
+.message{
+    width: 30%;
+    color: white;
+    border: 1px solid white;
+    height: 70vh;
+    margin: 2vh;
+}
+input{
+    background-color: black;
+    border: white;
+    color: white;
+    border-bottom: 1px solid white;
+    height: 4vh;
+    padding: 2px;
+    outline: none;
+    margin-bottom: 3vh;
+}
+textarea{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 2px;
+}
+.about{
+    border: 1px solid white;
+    margin: 2vh;
+    height: 70vh;
+    width: 100%;
+}
+.finfo{
+    margin-top: 10vh;
+}
+.finfo li{
+    margin-top: 5vh;
+    cursor: pointer;
+}
+.social{
+    margin-top: 20vh;
+}
+.companylogo{
+    height: 13vh;
+    margin-left: 2vh;
+}
